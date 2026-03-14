@@ -1,0 +1,20 @@
+# Pedir datos del producto
+producto = input("Nombre del producto: ")
+precio = float(input("Precio unitario: "))
+cantidad = int(input("Cantidad: "))
+
+# Calcular valores
+subtotal = precio * cantidad
+iva = subtotal * 0.19
+total = subtotal + iva
+
+# Mostrar factura
+print("Producto:", producto)
+print("Precio:", precio)
+print("Cantidad:", cantidad)
+print("Subtotal:", subtotal)
+print("IVA:", iva)
+print("Total:", total)
+
+# Comparar si aplica descuento
+print("Aplica descuento especial?:", total > 50000)
