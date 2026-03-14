@@ -1,0 +1,24 @@
+# Pedir dos numeros
+num1 = int(input("Ingrese primer numero: "))
+num2 = int(input("Ingrese segundo numero: "))
+
+# Operaciones matematicas
+suma = num1 + num2
+resta = num1 - num2
+multiplicacion = num1 * num2
+division = num1 / num2
+division_entera = num1 // num2
+residuo = num1 % num2
+potencia = num1 ** num2
+
+# Mostrar resultados
+print("Suma:", suma)
+print("Resta:", resta)
+print("Multiplicacion:", multiplicacion)
+print("Division:", division)
+print("Division entera:", division_entera)
+print("Residuo:", residuo)
+print("Potencia:", potencia)
+
+# Comparar si la suma es mayor que 100
+print("La suma es mayor que 100?:", suma > 100)
