@@ -1,0 +1,13 @@
+INICIO
+LEER nombre
+LEER edad
+LEER ciudad
+
+ESCRIBIR "Hola me llamo ", nombre
+ESCRIBIR "Tengo ", edad, " años"
+ESCRIBIR "Soy de ", ciudad
+
+mayor <- edad >= 18
+
+ESCRIBIR "Es mayor de edad?: ", mayor
+FIN
