@@ -1,0 +1,7 @@
+# Pedir datos
+nombre = input("Nombre: ")
+peso = float(input("Peso en kg: "))
+altura = float(input("Altura en metros: "))
+
+# Calcular IMC
+imc = peso / (
