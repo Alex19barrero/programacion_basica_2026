@@ -20,11 +20,10 @@
 consumo = int(input("Ingrese los metros cúbicos consumidos: "))
 
 if consumo <= 0:
-    print("Dato inválido - Error: el consumo debe ser mayor a 0")
+    print("Dato inválido error: el consumo debe ser mayor a 0")
 elif consumo <= 15:
-    print("Bajo consumo - ¡Excelente! Eres un usuario responsable del agua")
+    print("Bajo consumo (¡excelente! Eres un usuario responsable del agua)";)
 elif consumo <= 30:
-    print("Consumo normal - Tu consumo está dentro del promedio del hogar")
+    print("Consumo normal  tu consumo está dentro del promedio del hogar")
 else:
-    print("Alto consumo - Atención: tu consumo es alto, revisa posibles fugas")
-
+    print("Alto consumo  atención: tu consumo es alto, revisa posibles fugas")
